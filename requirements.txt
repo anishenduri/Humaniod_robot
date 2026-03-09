@@ -1,0 +1,6 @@
+gTTS
+playsound==1.2.2
+fuzzywuzzy
+speechrecognition
+google-generativeai
+python-Levenshtein
