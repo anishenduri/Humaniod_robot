@@ -30,7 +30,7 @@ from tkinter import ttk, scrolledtext
 # ---------------- CONFIG ----------------
 SERVER_IP = "169.254.210.40"  # default EV3 IP (change in UI)
 SERVER_PORT = 9999
-GEMINI_API_KEY = "AIzaSyBNgArvL7wp7DSQVpcnhyN_WKnQzGfmUWc"           # put Gemini key in Part-2 if you use Gemini
+GEMINI_API_KEY = ""           # put Gemini key in Part-2 if you use Gemini
 GEMINI_MODEL_ID = "gemini-2.5-flash"
 FUZZY_THRESHOLD = 70
 
