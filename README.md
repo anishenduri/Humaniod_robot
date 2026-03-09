@@ -1,34 +1,27 @@
-# Humaniod_robot
-Overview
+# Humanoid  Voice-Controlled Robot
+
+## Overview
 
 This project is a voice-controlled humanoid robot built using the LEGO EV3 platform.
-It integrates robotics, AI, networking, and voice recognition to allow natural language control of a humanoid robot.
+It integrates **robotics, AI, networking, and voice recognition** to allow natural language control of a humanoid robot.
 
 The robot can be controlled using:
 
-GUI buttons
+* GUI buttons
+* Voice commands
+* AI-powered natural language input
 
-Voice commands
+## Technologies Used
 
-AI-powered natural language input
+* Python
+* Tkinter GUI
+* Google Speech Recognition
+* Google Gemini API
+* Fuzzy Matching (FuzzyWuzzy)
+* TCP Socket Networking
+* EV3DEV2 Robotics Library
 
-Technologies Used
-
-Python
-
-Tkinter GUI
-
-Google Speech Recognition
-
-Google Gemini API
-
-Fuzzy Matching (FuzzyWuzzy)
-
-TCP Socket Networking
-
-EV3DEV2 Robotics Library
-
-System Architecture
+## System Architecture
 
 Client (Laptop)
 ↓
@@ -38,69 +31,74 @@ EV3 Server
 ↓
 Motor Control + Sensor Feedback
 
-Features
-Robot Movements
+## Features
 
-Walk Forward / Backward
+### Robot Movements
 
-Turn Left / Right
+* Walk Forward / Backward
+* Turn Left / Right
+* Slide Movement
+* Autonomous Obstacle Avoidance
 
-Slide Movement
+### Hand Gestures
 
-Autonomous Obstacle Avoidance
+* Raise Hands
+* Lower Hands
+* Wave Left Hand
+* Wave Right Hand
+* Punch Action
 
-Hand Gestures
+### Voice Interaction
 
-Raise Hands
+* Manual Voice Command
+* Continuous Listening Mode
+* AI Intent Recognition using Gemini
 
-Lower Hands
+### Sensors
 
-Wave Left Hand
+* Ultrasonic distance measurement
+* Obstacle detection
 
-Wave Right Hand
+### GUI Features
 
-Punch Action
+* Control panel
+* Chat-style interface
+* Voice command button
+* Robot status panel
 
-Voice Interaction
+## Example Commands
 
-Manual Voice Command
-
-Continuous Listening Mode
-
-AI Intent Recognition using Gemini
-
-Sensors
-
-Ultrasonic distance measurement
-
-Obstacle detection
-
-GUI Features
-
-Control panel
-
-Chat-style interface
-
-Voice command button
-
-Robot status panel
-
-Example Commands
+```
 walk forward
 turn left
 raise hands
 punch
 what is the distance
-Running the Project
-Install dependencies
-pip install -r requirements.txt
-Start EV3 server
-python ev3_humanoid_server.py
-Start client GUI
-python humanoid_client.py
-Project Author
+```
 
-Anish Enduri
+## Running the Project
+
+### Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### Start EV3 server
+
+```
+python ev3_humanoid_server.py
+```
+
+### Start client GUI
+
+```
+python humanoid_client.py
+```
+
+## Project Author
+
+**Anish Enduri**
 
 Artificial Intelligence & Data Science
-Graduating 2026
+
